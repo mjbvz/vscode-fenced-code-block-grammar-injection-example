@@ -1,0 +1,21 @@
+{
+	"fileTypes": [],
+	"injectionSelector": "L:markup.fenced_code.block.markdown",
+	"patterns": [
+		{
+			"include": "#superjs-code-block"
+		}
+	],
+	"repository": {
+		"superjs-code-block": {
+			"begin": "superjs",
+			"end": "(^|\\G)(?=\\s*[`~]{3,}\\s*$)",
+			"patterns": [
+				{
+					"include": "source.js"
+				}
+			]
+		}
+	},
+	"scopeName": "markdown.superjs.codeblock"
+}
