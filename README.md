@@ -10,4 +10,4 @@ someJsCode
 ~~~
 
 
-Requires a VSCode build from April 12, 2017+
+Requires VS Code build from 1.14+ for basic functionality, and VS Code 1.17+ for embeddedLanguages support
