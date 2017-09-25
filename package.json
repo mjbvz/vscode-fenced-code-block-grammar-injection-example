@@ -21,7 +21,7 @@
     "grammars": [
       {
         "scopeName": "markdown.superjs.codeblock",
-        "path": "./syntaxes/test.json",
+        "path": "./syntaxes/codeblock.json",
         "injectTo": [
           "text.html.markdown"
         ]
