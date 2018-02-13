@@ -10,10 +10,16 @@
 		"superjs-code-block": {
 			"begin": "superjs(\\s+[^`~]*)?$",
 			"end": "(^|\\G)(?=\\s*[`~]{3,}\\s*$)",
-			"contentName": "meta.embedded.block.superjs",
 			"patterns": [
 				{
-					"include": "source.js"
+					"begin": "(^|\\G)(\\s*)(.*)",
+					"while": "(^|\\G)(?!\\s*([`~]{3,})\\s*$)",
+					"contentName": "meta.embedded.block.superjs",
+					"patterns": [
+						{
+							"include": "source.js"
+						}
+					]
 				}
 			]
 		}
