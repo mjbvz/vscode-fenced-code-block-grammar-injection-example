@@ -8,7 +8,7 @@
 	],
 	"repository": {
 		"superjs-code-block": {
-			"begin": "superjs",
+			"begin": "superjs(\\s+[^`~]*)?$",
 			"end": "(^|\\G)(?=\\s*[`~]{3,}\\s*$)",
 			"contentName": "meta.embedded.block.superjs",
 			"patterns": [
