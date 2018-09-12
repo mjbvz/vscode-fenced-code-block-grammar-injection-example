@@ -8,11 +8,11 @@
 	],
 	"repository": {
 		"superjs-code-block": {
-			"begin": "superjs(\\s+[^`~]*)?$",
+			"begin": "(?<=[`~])superjs(\\s+[^`~]*)?$",
 			"end": "(^|\\G)(?=\\s*[`~]{3,}\\s*$)",
 			"patterns": [
 				{
-					"begin": "(^|\\G)(\\s*)(.*)",
+					"begin": "(^|\\G)(\\s*)(.*)",  
 					"while": "(^|\\G)(?!\\s*([`~]{3,})\\s*$)",
 					"contentName": "meta.embedded.block.superjs",
 					"patterns": [
