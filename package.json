@@ -18,8 +18,14 @@
     "Other"
   ],
   "contributes": {
+    "languages": [
+      {
+        "id": "superjs-injection"
+      }
+    ],
     "grammars": [
       {
+        "language": "superjs-injection",
         "scopeName": "markdown.superjs.codeblock",
         "path": "./syntaxes/codeblock.json",
         "injectTo": [
