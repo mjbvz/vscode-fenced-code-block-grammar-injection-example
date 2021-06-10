@@ -16,10 +16,10 @@
 					"name": "punctuation.definition.markdown"
 				},
 				"4": {
-					"name": "fenced_code.block.language"
+					"name": "fenced_code.block.language.markdown"
 				},
 				"5": {
-					"name": "fenced_code.block.language.attributes"
+					"name": "fenced_code.block.language.attributes.markdown"
 				}
 			},
 			"endCaptures": {
